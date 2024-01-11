@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAJA DHARSINI- Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times new Roman', sans-serif;
+            background-color: #FAFBFD;
+        }
+
+        header {
+            background-color: #033F7A;
+            color: white;
+            padding: 80px 0;
+        }
+
+        header h1,
+        header h2 {
+            margin-bottom: 20px;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .modal-dialog {
+            max-width: 800px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            background-color:#FAFBFD;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-center">
+        <h1>RAJADHARSINI J</h1>
+        <h2>Web Developer</h2>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center">
+                I am a highly motivated and detail-oriented web developer with a passion for creating
+                interactive and user-friendly websites. With a strong foundation in front-end and
+                back-end technologies, I strive to deliver elegant solutions tailored to meet the unique
+                needs of each project.
+            </p>
+			<p class="text-center">
+			    My technical skills include proficiency in HTML, CSS, JavaScript, React, Node.js, and
+                various database technologies. I am dedicated to staying current with industry trends
+                and continuously expanding my skill set to provide cutting-edge solutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Portfolio</h3>
+                        <p>Build a own portfolio using html and css.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project1Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="project">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Document management system</h3>
+                        <p>Creating a document management system using python as a frontend and sql for Backendnd</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Project 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Details and description of Project 1.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Project 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Details and description of Project 2.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add more modals for additional projects -->
+
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>python</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Power Bi</li>
+                        <li>Krita</li>
+                        <li>wordpress</li>
+                    </ul>
+                </div>
+				<div class="col-md-6">
+                    <h3>Certification</h3>
+                    <ul>
+                        <li>Introduction to cybersecurity at cisco</li>
+                        <li>Introduction to gen AI at google</li>
+                        <li>Database management at udemy</li>
+                        <li>Fundamentals of python at greatlearning</li>
+                    </ul>
+                </div>
+				<div class="col-md-6">
+                    <h3>Internships</h3>
+                    <ul>
+                        <li>Data science internship at technohacks</li>
+                        <li>Webdevelopment at bharat intern</li>
+                        <li>Artificial intelligence at codsoft</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <p class="text-center">Feel free to reach out to me through the following channels:</p>
+            <ul class="list-unstyled text-center">
+                <li>Email: rajadharsini503@gmail.com</li>
+                <li>LinkedIn: linkedin.com/in/Rajadharsini</li>
+                <li>GitHub: github.com/Rajadharsini2004</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RAJADHARSINI J - Portfolio</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
